@@ -10,7 +10,7 @@ double median_array(int array[], int n){
         return 0;
     }
     //sort the array from start to end, in increasing order using built in function. 
-    sort(array, array + n);
+    sort(array.begin(), array.end());
 
     return array[n/2];
 
