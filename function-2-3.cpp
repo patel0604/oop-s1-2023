@@ -37,5 +37,5 @@ void two_five_nine(int array[], int n){
     }
 
     //print the results of the array in desired format 
-    cout << "2:" << counter_2 << ";5:" << counter_5 << ";9:" << counter_9 << endl;
+    cout << "2:" << counter_2 << ";5:" << counter_5 << ";9:" << counter_9 << ";"<<endl;
 }
