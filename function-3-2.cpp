@@ -1,7 +1,8 @@
 #include<iostream>
-
+#include<array>
 //this library allows for the sort function to be used. no manual sorting required
 #include<algorithm>
+
 using namespace std;
 
 double median_array(int array[], int n){
@@ -10,7 +11,7 @@ double median_array(int array[], int n){
         return 0;
     }
     //sort the array from start to end, in increasing order using built in function. 
-    sort(array.begin(), array.end());
+    sort(array, array+n);
 
     return array[n/2];
 
