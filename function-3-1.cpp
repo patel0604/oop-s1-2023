@@ -12,6 +12,7 @@ bool is_fanarray(int array[], int n){
         //check if the current element is not equal to the correct palindrom position. ie if n =5 and array[0] != array[4], then return false
         if(array[i] != array[n-i-1]){
             return false;
+            break;
         }
     }
 
