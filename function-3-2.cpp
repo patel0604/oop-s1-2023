@@ -1,5 +1,7 @@
 #include<iostream>
-#include<array>
+
+//this library allows for the sort function to be used. no manual sorting required
+#include<algorithm>
 using namespace std;
 
 double median_array(int array[], int n){
