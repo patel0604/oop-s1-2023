@@ -17,7 +17,7 @@ double median_array(int array[], int n){
     if (n % 2 != 0){
 
         //return median element
-        return (double) array[n/2];
+        return  array[n/2];
     }
 
 
