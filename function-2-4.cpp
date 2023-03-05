@@ -10,7 +10,7 @@ bool is_ascending(int array[], int n){
     for(int i=0;i<n;i++){
 
         //if the current element is less than the previous element, then array is not increasing and return false. 
-        if (array[i]<array[i-1]){
+        if (array[i]<array[i+1]){
             return false;
         }
     }
