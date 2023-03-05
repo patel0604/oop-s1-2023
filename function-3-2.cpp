@@ -5,8 +5,8 @@
 using namespace std;
 
 double median_array(int array[], int n){
-    //return 0, if n<=0
-    if(n<=0){
+    //return 0, if n<=0 or if the array has even number of elements
+    if(n%2==0||n<=0){
         return 0;
     }
     //sort the array from start to end, in increasing order using built in function. 
@@ -19,11 +19,6 @@ double median_array(int array[], int n){
         //return median element
         return (double) array[n/2];
     }
-    else
-    {
-        //return the average of the middle two elements
-        return (double)(array[(n-1)/2] + array[n/2])/2.0;
-        
-    }
+
 
 }
