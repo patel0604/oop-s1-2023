@@ -1,4 +1,5 @@
 #include<iostream>
+#include<array>
 using namespace std;
 
 double median_array(int array[], int n){
