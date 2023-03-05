@@ -5,15 +5,13 @@
 
 using namespace std;
 
-double median_array(int array[], int n){
+int median_array(int array[], int n){
     //return 0, if n<=0 or if the array has even number of elements
-    if(n%2==0||n<=0){
+    if(n%2==0||n<1){
         return 0;
     }
     //sort the array from start to end, in increasing order using built in function. 
     sort(array, array+n);
 
-    return array[n/2];
-
-
+    return array[n/2];  
 }
