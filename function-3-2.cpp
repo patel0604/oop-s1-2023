@@ -12,13 +12,7 @@ double median_array(int array[], int n){
     //sort the array from start to end, in increasing order using built in function. 
     sort(array, array + n);
 
-
-    //if array is odd
-    if (n % 2 != 0){
-
-        //return median element
-        return  array[n/2];
-    }
+    return array[n/2];
 
 
 }
