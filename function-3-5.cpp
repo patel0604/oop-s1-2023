@@ -17,5 +17,5 @@ double sum_even(double array[], int n){
     }
 
     //return sum plus the value of first element as 0 is an even number. 
-    return sum+array[0];
+    return sum;
 }
