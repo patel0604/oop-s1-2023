@@ -26,8 +26,6 @@ string binary_addition(string num1, string num2) {
             j--;
         }
         
-        res = to_string(sum % 2) + res;
-        
         carry = sum / 2;
     }
 
