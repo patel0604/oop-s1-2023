@@ -10,7 +10,7 @@ void print_binary_str(string decimal_number){
         number = number/2;
     
     }
-    cout<<"the binary number of your given decimal is: ";
+    cout<<"the binary number of your given decimal is: "<<endl;
 
     
     for(i=i-1; i>=0; i--){
