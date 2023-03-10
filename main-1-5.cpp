@@ -10,7 +10,7 @@ int main(){
         for(int j=0; j<3; j++){
             cout<<array1[i][j]<<" ";
         }
-            cout<<endl;
+        cout<<endl;
     }
     return 0;
 }
