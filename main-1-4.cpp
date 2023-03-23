@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Person.h"
 
-extern PersonList shallowCopyPersonList(PersonList pl)
+extern PersonList shallowCopyPersonList(PersonList pl);
 
 int main(){
     int n = 4;
