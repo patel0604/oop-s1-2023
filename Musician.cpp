@@ -4,7 +4,7 @@
 using namespace std;
 
 Musician :: Musician(){
-    instrument = 'null';
+    instrument = "null";
     experience = 0;
 }
 
