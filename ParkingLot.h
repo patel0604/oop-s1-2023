@@ -17,7 +17,6 @@ class ParkingLot {
   ParkingLot(int max_amount);
   int getCount();
   void parkVehicle(Vehicle* parking_space);
-  void unparkVehicle(int ID); 
   int countOverstayingVehicles(int maxParkingDuration);
   ~ParkingLot();
   int vehicles_counter = 0;
