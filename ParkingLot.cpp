@@ -7,7 +7,7 @@ ParkingLot::ParkingLot(): max_amount(0) {
 
 }
 
-ParkingLot::ParkingLot(int max_size): max_amount(max_amount) {
+ParkingLot::ParkingLot(int max_amount): max_amount(max_amount) {
   
 }
 
