@@ -33,8 +33,7 @@ int ParkingLot::countOverstayingVehicles(int maxParkingDuration) {
         }
         return amount_overstay;
     }
-};
-
+}
 
 
 ParkingLot::~ParkingLot(){
