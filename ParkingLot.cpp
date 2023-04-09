@@ -34,7 +34,7 @@ void ParkingLot::unparkVehicle(int ID) {
     }
   }
 
-  cout << "Vehicle not in the lot" << endl;
+  cout << "The vehicle is not in the lot" << endl;
 };
 
 int ParkingLot::countOverstayingVehicles(int maxParkingDuration) {
