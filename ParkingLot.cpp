@@ -25,16 +25,16 @@ void ParkingLot::parkVehicle(Vehicle* parking_space){
     }
 }
 
-void ParkingLot::unparkVehicle(int IDinput) {
+void ParkingLot::unparkVehicle(int ID) {
   for (int i = 0; i < vehicles_counter; i++) {
-    if (vehicles_parked[i].getID() == IDinput) {
+    if (vehicles_parked[i].getID() == ID) {
       vehicles_parked[i] = vehicles_parked[vehicles_counter - 1];
       vehicles_counter--;
       return;
     }
   }
 
-  std::cout << "Vehicle not in the lot" << std::endl;
+  cout << "Vehicle not in the lot" << endl;
 };
 
 int ParkingLot::countOverstayingVehicles(int maxParkingDuration) {
