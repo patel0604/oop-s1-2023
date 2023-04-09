@@ -7,7 +7,7 @@ Vehicle::Vehicle() {
   ID = 0;
 }
 
-Vehicle::Vehicle(int ID): ID(ID) {
+Vehicle::Vehicle(int ID) {
   this -> timeOfEntry = time(0);
 }
 
