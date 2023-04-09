@@ -21,7 +21,7 @@ void ParkingLot::parkVehicle(Vehicle* parking_space){
         vehicles_counter++;
     } 
     else {
-        cout << "There are no empty spaces" << endl;
+        cout << "The lot is full" << endl;
     }
 }
 
