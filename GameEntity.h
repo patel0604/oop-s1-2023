@@ -16,5 +16,7 @@ class GameEntity {
         char getType(){
             return type;
         }
+
+        virtual void apply(GameEntity& entity)=0;
 };
 #endif
