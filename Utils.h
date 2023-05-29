@@ -1,7 +1,7 @@
 #include <iostream>
-
+using namespace std;
 class Utils {
     public:
-        static std::tuple<int, int> generateRandomPos(int gridWidth, int gridHeight);
-        static double calculateDistance(std::tuple<int, int> pos1, std::tuple<int, int> pos2);
+        static tuple<int, int> generateRandomPos(int gridWidth, int gridHeight);
+        static double calculateDistance(tuple<int, int> pos1, tuple<int, int> pos2);
 };

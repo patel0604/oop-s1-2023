@@ -1,14 +1,20 @@
 #include <iostream>
+#include <tuple>
 #ifndef GAMEENTITY_H
 #define GAMEENTITY_H
+using namespace std;
 
 class GameEntity {
     private:
-        std::tuple<int, int> position;
+        tuple<int, int> position;
         char type;
     public:
         GameEntity(int x, int y, char type);
-        std::tuple<int, int> getPos();
-        char getType();
-}
+        tuple<int, int> getPos(){
+            return position;
+        }
+        char getType(){
+            return type;
+        }
+};
 #endif
