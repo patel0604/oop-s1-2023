@@ -8,10 +8,10 @@ class GameEntity {
     private:
         tuple<int, int> position;
         char type;
-        int x;
-        int y;
     public:
-        GameEntity(int x, int y, char type);
+        GameEntity(int x, int y, char type){
+            this -> type = type;
+        }
         tuple<int, int> getPos(){
             return position;
         }
