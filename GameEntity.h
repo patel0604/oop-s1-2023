@@ -8,6 +8,8 @@ class GameEntity {
     private:
         tuple<int, int> position;
         char type;
+        int x;
+        int y;
     public:
         GameEntity(int x, int y, char type);
         tuple<int, int> getPos(){
@@ -16,7 +18,6 @@ class GameEntity {
         char getType(){
             return type;
         }
-
         virtual void apply(GameEntity& entity)=0;
 };
 #endif
