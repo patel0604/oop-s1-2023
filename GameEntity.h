@@ -5,11 +5,11 @@
 using namespace std;
 
 class GameEntity {
-    private:
+    protected:
         tuple<int, int> position;
         char type;
     public:
-        GameEntity(int x, int y, char type){
+        GameEntity(int x, int y, char type): position(x,y){
             this -> type = type;
         }
         tuple<int, int> getPos(){
@@ -18,6 +18,14 @@ class GameEntity {
         char getType(){
             return type;
         }
-        virtual void apply(GameEntity& entity)=0;
+
+        void set_position(int x, int y) {
+            position = make_tuple(x,y);
+        }
+        void set_type(char type) {
+            this->type = type;
+        }
+        
+        virtual void move(int dx, int dy) {}
 };
 #endif
