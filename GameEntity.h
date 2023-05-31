@@ -25,7 +25,6 @@ class GameEntity {
         void set_type(char type) {
             this->type = type;
         }
-        
         virtual void move(int dx, int dy) {}
 };
 #endif

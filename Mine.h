@@ -6,7 +6,7 @@
 #include <tuple>
 using namespace std;
 
-class Mine : GameEntity{
+class Mine : public GameEntity{
     public:
         Mine(int x, int y) : GameEntity(x, y, 'M') {}
         Explosion explode(){
