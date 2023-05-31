@@ -45,15 +45,6 @@ class Game {
                         }
                     }
                 }
-                int counter = 0;
-                for (int i = 0; i < maxIterations; i++) {
-                    if (entities[i]->getType() == 'S') {
-                        counter++;
-                    }
-                }
-                if (counter == 0) {
-                    break;
-                }
             }
         }
 
