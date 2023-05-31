@@ -5,7 +5,7 @@
 #include "Effect.h"
 using namespace std;
 
-class Explosion : GameEntity, Effect{
+class Explosion : public GameEntity, public Effect{
     public:
         Explosion(int x, int y) : GameEntity(x, y, 'E'){
 
